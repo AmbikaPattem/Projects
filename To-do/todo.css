@@ -1,0 +1,76 @@
+.container{
+    
+    background-color: aliceblue;
+}
+h2{
+    text-align: center;
+    color: blue;
+}
+.inputfield{
+    position: relative;
+    text-align: center;
+    background-color:antiquewhite;
+}
+input{
+    width:27%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 20px;
+    
+}
+#btn{
+    background-color: green;
+    color: white;
+    border:none;
+    padding: 15px;
+}
+.List{
+    position: relative;
+    text-align: left; 
+    background-color:whitesmoke;
+}
+#ul{
+    position: relative;
+    
+
+}
+.li{
+    margin: auto;
+    width:32%;
+    border:1px solid green;
+    padding: 14px;
+    margin-top: 3px;
+    position: relative;
+    background-color: antiquewhite;
+    color: gray;
+    word-wrap:break-word;
+}
+.modify{
+    position:absolute;
+    right:40px;
+    top:0px;
+    bottom: 0px;
+    padding:10px;
+    border:none;
+    color:black;
+}
+.close{
+    /*background-color: red;*/
+    color:black;
+    font-size: 15px;
+    position:absolute;
+    right:0px;
+    top:0px;
+    bottom: 0px;
+    left:420px;
+    padding:8px;
+    border:none;
+}
+.modify:hover{
+    background-color: blue;
+    color:white;
+}
+.close:hover{
+    background-color: red;
+    color:white;
+}

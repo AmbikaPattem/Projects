@@ -1,0 +1,45 @@
+.calculator{
+	height:320px;
+	width:250px;
+	border:1px solid lightgray;
+	background-color:lightgray;
+}
+.cal1{
+	
+	height:50px;
+	width:180px;
+	position:relative;
+	top:10px;
+	left:0px;
+	background-color:white;
+    word-wrap:break-word;
+	text-align: right;
+}
+.cal2{
+	width:180px;
+	text-align:center;
+	position:relative;
+	top:5px;
+	left:0px;
+	background-color:lavender;
+	height:230px;
+	
+}
+input[type=button]{
+	height:40px;
+	width:40px;
+}
+input[type=button]:hover{
+	background-color:blue;
+	transform: scale(1.2); 
+}
+.tb{
+	background-color:lightblue;
+	color:white;
+	border:1px solid lightblue;
+}
+.lb{
+	background-color:gray;
+	color:white;
+	border:1px solid lavender;
+}

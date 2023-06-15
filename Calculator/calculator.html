@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+    <center>
+        <div class="calculator">
+            <div class="cal">
+                <div class="cal1" id="result">
+                    
+                </div>
+                <div class="cal2">
+                    <table>
+                        <tr>
+                            <td><input class="tb" type="button" value="C" onclick="calculation(' ')"></td>
+                            <td><input class="tb" type="button" value="%" onclick="calculation('%')"></td>
+                            <td><input class="tb" type="button" value="x" onclick="calculation('x')"></td>
+                            <td><input class="tb" type="button" value="/" onclick="calculation('/')"></td>
+                        </tr>
+                        <tr>
+                            <td><input class="lb" type="button" value="7" onclick="calculation('7')"></td>
+                            <td><input class="lb" type="button" value="8" onclick="calculation('8')"></td>
+                            <td><input class="lb" type="button" value="9" onclick="calculation('9')"></td>
+                            <td><input class="tb" type="button" value="*" onclick="calculation('*')"></td>
+                        </tr>
+                        <tr>
+                            <td><input class="lb" type="button" value="4" onclick="calculation('4')"></td>
+                            <td><input class="lb" type="button" value="5" onclick="calculation('5')"></td>
+                            <td><input class="lb" type="button" value="6" onclick="calculation('6')"></td>
+                            <td><input class="tb" type="button" value="-" onclick="calculation('-')"></td>
+                        </tr>
+                        <tr>
+                            <td><input class="lb" type="button" value="1" onclick="calculation('1')"></td>
+                            <td><input class="lb" type="button" value="2" onclick="calculation('2')"></td>
+                            <td><input class="lb" type="button" value="3" onclick="calculation('3')"></td>
+                            <td><input class="tb" type="button" value="+" onclick="calculation('+')"></td>
+                        </tr>
+                        <tr>
+                            <td><input class="lb" type="button" value="00" onclick="calculation('00')"></td>
+                            <td><input class="lb" type="button" value="0" onclick="calculation('0')"></td>
+                            <td><input class="lb" type="button" value="." onclick="calculation('.')"></td>
+                            <td><input class="tb" type="button" value="=" onclick="calculation('=')"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        <div>
+        </center>
+    <script src="./calculator.js"></script>
+</body>
+</html>
